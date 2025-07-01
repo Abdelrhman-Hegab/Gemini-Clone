@@ -15,7 +15,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="nav">
-                <p>Gemini</p>
+                <p>Mano Ai</p>
                 <img src={assets.mano_icon} alt="" />
             </div>
             <div className="main-container">
@@ -23,7 +23,7 @@ const Main = () => {
                     <>
                         <div className="greet">
                             <p>
-                                <span>Hi, I'm Gemini</span>
+                                <span>Hi, I'm Mano</span>
                             </p>
                             <p>How can I help you today?</p>
                         </div>
