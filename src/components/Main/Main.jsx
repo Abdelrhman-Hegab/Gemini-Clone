@@ -73,7 +73,7 @@ const Main = () => {
                             onChange={(e) => setInput(e.target.value)}
                             value={input}
                             type="text"
-                            placeholder="Enter Your Question Here"
+                            placeholder="Ask Me Here"
                         />
                         <div>
                             <img src={assets.gallery_icon} alt="" />
