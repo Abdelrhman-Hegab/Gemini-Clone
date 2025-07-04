@@ -69,11 +69,14 @@ const Main = () => {
 
                 <div className="main-bottom">
                     <div className="search-box">
-                        <input
+                       <input
+                            onKeyDown={(e) => {
+                                if (e.key === "Enter") onSent();
+                            }}
                             onChange={(e) => setInput(e.target.value)}
                             value={input}
                             type="text"
-                            placeholder="Ask Me Here"
+                            placeholder="Enter Your Question Here"
                         />
                         <div>
                             <img src={assets.gallery_icon} alt="" />
